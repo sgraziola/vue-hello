@@ -18,7 +18,8 @@
 
 <body>
   <header id="site_header">
-    <h1>{{ message }}</h1>
+    <h1 :class="center">{{ message }}</h1>
+    <img v-bind="imgAttributes" alt="">
   </header>
   <main>
 

@@ -8,7 +8,13 @@ const { createApp } = Vue;
 createApp({
     data(){
         return {
-            message: "Hello Vue!",
+            message: "My Vue Site!",
+           
+            center: "text-center",
+            imgAttributes: {
+                src: "https://www.omeecron.com/wp-content/uploads/2022/06/vuejs.png",
+                class: "img-fluid",
+            }
         }
     }
 }).mount("#site_header");
